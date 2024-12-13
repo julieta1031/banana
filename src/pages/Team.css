@@ -1,0 +1,140 @@
+/* src/components/Team.css */
+.team-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-player-form{
+    margin: 30px 0 0 0;
+}
+
+.players-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 250px;
+    background-color: chartreuse;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+
+}
+input{
+    border: 2px solid black;
+    margin: 10px   ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+ text-shadow: black 9px 5px 5px  ;
+}
+
+.player-card {
+    position: relative;
+}
+.player-card {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.player-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn,.moreBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.moreBtn{
+    right: 32px;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
+
+.modal {
+    position: fixed;
+    /*backdrop-filter: blur(10px);*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background:rgba(169, 169, 169, 0.9);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+border: 1px solid black;
+    backdrop-filter: blur(10px);
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+
+
+}
+
+.close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleted-players {
+    margin-top: 20px;
+}
+
+.restore-btn {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.permanent-delete-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

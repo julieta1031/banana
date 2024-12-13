@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-shadow: black 4px 3px 3px  ;
+}
+
+.swiper-slide img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.swiper-slide img:hover {
+    transform: scale(1.05);
+}
+
+
+.react-player {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.countup-container {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+
+.box {
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+

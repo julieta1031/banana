@@ -1,0 +1,31 @@
+.player-card {
+    background-color: #fffefe;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+
+img.player-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+
+    color: chartreuse;
+}
+
+.player-info {
+
+    margin-top: 10px;
+}
+
+div.player-card{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}

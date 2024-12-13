@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": "0.6270320677541199",
+      "username": "Marat",
+      "email": "Marat.20@mail.ru",
+      "password": "Marat.2002"
+    },
+    {
+      "id": "0.3367243350013349",
+      "username": "Marat",
+      "email": "Marat.20@mail.ru",
+      "password": "Marat.2002"
+    },
+    {
+      "id": "0.9417050076002496",
+      "username": "Maratt",
+      "email": "Marat.30@mail.ru",
+      "password": "Marat.2003"
+    },
+    {
+      "id": "0.1563256789869547",
+      "username": "mmmm",
+      "email": "m.@m.ru",
+      "password": "Marat.2002"
+    },
+    {
+      "id": "0.6668460178266367",
+      "username": "fdgdf",
+      "email": "dfgg@m.ru",
+      "password": "dfgg@m.ru"
+    },
+    {
+      "id": "0.1474950145226277",
+      "username": "nbn",
+      "email": "bnb@.ru",
+      "password": "bnb@.ru"
+    },
+    {
+      "id": "0.9537379644303459",
+      "username": "bnbnb",
+      "email": "Marat.20@mail.ru",
+      "password": "Marat.2002"
+    }
+  ],
+  "players": [
+    {
+      "id": "1733922020871",
+      "name": "",
+      "position": "",
+      "number": "",
+      "image": ""
+    },
+    {
+      "id": "1733922150731",
+      "name": "",
+      "position": "",
+      "number": "",
+      "image": ""
+    },
+    {
+      "id": "1733922151319",
+      "name": "",
+      "position": "",
+      "number": "",
+      "image": ""
+    },
+    {
+      "id": "1733922158295",
+      "name": "",
+      "position": "",
+      "number": "",
+      "image": ""
+    },
+    {
+      "id": "1733922164146",
+      "name": "",
+      "position": "",
+      "number": "",
+      "image": ""
+    },
+    {
+      "id": "1733922164983",
+      "name": "",
+      "position": "",
+      "number": "",
+      "image": ""
+    }
+  ],
+  "deletedPlayers": [],
+  "products": [
+    {
+      "id": "1",
+      "name": "banana"
+    },
+    {
+      "id": "2",
+      "name": "pineapple"
+    },
+    {
+      "id": "3",
+      "name": "apple"
+    }
+  ],
+  "card": [
+    {
+      "id": "1cab",
+      "fruitId": "1",
+      "name": "banana",
+      "count": 4
+    },
+    {
+      "id": "fa4e",
+      "fruitId": "3",
+      "name": "apple",
+      "count": 8
+    }
+  ]
+}
